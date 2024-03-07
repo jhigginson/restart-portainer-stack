@@ -69,6 +69,8 @@ async function controlStack(token, stackId, action) {
   }
 }
 
+console.log(new Date().toString());
+
 console.log(`Attempting to connect to portainer instance on ${urlBase}`);
 const authToken = await authenticatePortainer();
 
